@@ -17,7 +17,7 @@
 - 📈 Seaborn
 - 📓 Jupyter Notebook / Google Colab
 
-##📂 Dataset
+📂 Dataset
 
 -The project uses the Seaborn Taxis dataset.
 
@@ -37,7 +37,7 @@
 - "dropoff_borough" – Drop-off borough
 - "dropoff_zone" – Drop-off zone
 
-##🧹 Data Cleaning
+🧹 Data Cleaning
 
 -The following data-cleaning steps were performed:
 
@@ -48,7 +48,7 @@
 - Removed rows with missing values from critical columns where necessary.
 - Converted the "pickup" column to datetime format.
 
-##📊 Visualization & Analysis
+📊 Visualization & Analysis
 
 -1. 📈 Time & Trend Analysis
 
@@ -108,11 +108,11 @@
 - The heatmap highlights correlations among important numerical variables.
 - Different visualizations provide a broader understanding of taxi trip behavior.
 
-##💡 Interpretation
+💡 Interpretation
 
 -The visualizations provide a clear understanding of taxi trip patterns, fare trends, distance, tips, payment methods, and pickup locations. The combination of categorical, distribution, time-based, and relationship analysis helps identify important patterns within the dataset.
 
-##📌 Conclusion
+📌 Conclusion
 
 -The Taxis dataset was successfully cleaned and analyzed using Python, Pandas, Matplotlib, and Seaborn. Multiple visualizations were created to explore taxi fares, distances, tips, payment methods, and pickup locations. Overall, the project demonstrates practical skills in data cleaning, exploratory data analysis, data visualization, and interpreting business-related insights.
 
