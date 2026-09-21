@@ -1,10 +1,10 @@
-#🚕 Taxis Data Analysis & Visualization
+🚕 Taxis Data Analysis & Visualization
 
-##📌 Overview
+📌 Overview
 
 -This project analyzes the Taxis dataset using Python, Pandas, Matplotlib, and Seaborn. The project focuses on data cleaning, handling missing values, exploratory data analysis, and creating different visualizations to understand taxi trip patterns, fares, distances, tips, payment methods, and pickup locations.
 
-###🎯 Objective
+🎯 Objective
 
 -The objective of this project is to clean and analyze taxi trip data and use different visualizations to identify patterns, distributions, and relationships between important variables such as fare, distance, tip, total, payment method, and pickup borough.
 
