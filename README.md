@@ -1,126 +1,149 @@
-🚕 Taxis Data Analysis & Visualization
+# 🚕 Taxis Data Analysis & Visualization
 
-📌 Overview
+## 📌 Overview
 
--This project analyzes the Taxis dataset using Python, Pandas, Matplotlib, and Seaborn. The project focuses on data cleaning, handling missing values, exploratory data analysis, and creating different visualizations to understand taxi trip patterns, fares, distances, tips, payment methods, and pickup locations.
+This project analyzes the **Taxis dataset** using Python, Pandas, Matplotlib, and Seaborn. The project focuses on data cleaning, handling missing values, exploratory data analysis (EDA), and creating different visualizations to understand taxi trip patterns, fares, distances, tips, payment methods, and pickup locations.
 
-🎯 Objective
+## 🎯 Objective
 
--The objective of this project is to clean and analyze taxi trip data and use different visualizations to identify patterns, distributions, and relationships between important variables such as fare, distance, tip, total, payment method, and pickup borough.
+The objective of this project is to clean and analyze taxi trip data and use different visualizations to identify patterns, distributions, and relationships between important variables such as **fare, distance, tip, total, payment method, and pickup borough**.
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
-- 🐍 Python
-- 🐼 Pandas
-- 🔢 NumPy
-- 📊 Matplotlib
-- 📈 Seaborn
-- 📓 Jupyter Notebook / Google Colab
+* 🐍 Python
+* 🐼 Pandas
+* 🔢 NumPy
+* 📊 Matplotlib
+* 📈 Seaborn
+* 📓 Jupyter Notebook / Google Colab
 
-📂 Dataset
+## 📂 Dataset
 
--The project uses the Seaborn Taxis dataset.
+The project uses the **Seaborn Taxis dataset**.
 
--Important columns include:
+### Important Columns
 
-- "pickup" – Pickup timestamp
-- "dropoff" – Drop-off timestamp
-- "passengers" – Number of passengers
-- "distance" – Trip distance
-- "fare" – Taxi fare
-- "tip" – Tip amount
-- "tolls" – Toll amount
-- "total" – Total trip amount
-- "payment" – Payment method
-- "pickup_borough" – Pickup borough
-- "pickup_zone" – Pickup zone
-- "dropoff_borough" – Drop-off borough
-- "dropoff_zone" – Drop-off zone
+| Column            | Description          |
+| ----------------- | -------------------- |
+| `pickup`          | Pickup timestamp     |
+| `dropoff`         | Drop-off timestamp   |
+| `passengers`      | Number of passengers |
+| `distance`        | Trip distance        |
+| `fare`            | Taxi fare            |
+| `tip`             | Tip amount           |
+| `tolls`           | Toll amount          |
+| `total`           | Total trip amount    |
+| `payment`         | Payment method       |
+| `pickup_borough`  | Pickup borough       |
+| `pickup_zone`     | Pickup zone          |
+| `dropoff_borough` | Drop-off borough     |
+| `dropoff_zone`    | Drop-off zone        |
 
-🧹 Data Cleaning
+## 🧹 Data Cleaning
 
--The following data-cleaning steps were performed:
+The following data-cleaning steps were performed:
 
-- Checked for missing values.
-- Identified columns containing missing data.
-- Filled numerical missing values using the median.
-- Filled categorical missing values using the mode.
-- Removed rows with missing values from critical columns where necessary.
-- Converted the "pickup" column to datetime format.
+* Checked for missing values.
+* Identified columns containing missing data.
+* Filled numerical missing values using the **median**.
+* Filled categorical missing values using the **mode**.
+* Removed rows with missing values from critical columns where necessary.
+* Converted the `pickup` column to **datetime** format.
 
-📊 Visualization & Analysis
+## 📊 Visualization & Analysis
 
--1. 📈 Time & Trend Analysis
+### 1. 📈 Time & Trend Analysis
 
--Line Chart – Fare Over Time
+#### Line Chart – Fare Over Time
 
--Used to understand how taxi fares change according to pickup time.
+Used to understand how taxi fares change according to pickup time.
 
--2. 📍 Categorical Analysis
+### 2. 📍 Categorical Analysis
 
--Bar Chart – Total Fare by Pickup Borough
+#### Bar Chart – Total Fare by Pickup Borough
 
--Used to compare total fare across pickup boroughs.
+Used to compare total fare across different pickup boroughs.
 
--Pie Chart – Payment Method Distribution
+#### Pie Chart – Payment Method Distribution
 
--Used to understand the distribution of trips by payment method.
+Used to understand the distribution of trips by payment method.
 
--Count Plot – Trips by Pickup Borough
+#### Count Plot – Trips by Pickup Borough
 
--Used to compare the number of taxi trips across boroughs.
+Used to compare the number of taxi trips across different pickup boroughs.
 
-##3. 📊 Distribution Analysis
+### 3. 📊 Distribution Analysis
 
--Histogram – Distance
+#### Histogram – Distance
 
--Used to understand the distribution of taxi trip distances.
+Used to understand the distribution of taxi trip distances.
 
--Box Plot – Tip by Pickup Borough
+#### Box Plot – Tip by Pickup Borough
 
--Used to compare tip distributions and identify possible outliers.
+Used to compare tip distributions and identify possible outliers.
 
--Violin Plot – Fare by Payment Method
+#### Violin Plot – Fare by Payment Method
 
--Used to understand fare distribution across different payment methods.
+Used to understand fare distributions across different payment methods.
 
-##4. 🔗 Relationship & Correlation Analysis
+### 4. 🔗 Relationship & Correlation Analysis
 
--Scatter Plot – Distance vs Fare
+#### Scatter Plot – Distance vs Fare
 
--Used to examine the relationship between trip distance and fare.
+Used to examine the relationship between trip distance and fare.
 
--Heatmap – Correlation Analysis
+#### Heatmap – Correlation Analysis
 
--Used to analyze relationships between "distance", "fare", "tip", "tolls", and "total".
+Used to analyze relationships between:
 
-##Pair Plot
+* `distance`
+* `fare`
+* `tip`
+* `tolls`
+* `total`
 
--Used to compare pairwise relationships between "distance", "fare", "tip", and "total" across pickup zones.
+### 🔄 Pair Plot
 
-##🔍 Key Insights
+Used to compare pairwise relationships between:
 
-- Taxi fares vary across different trips and pickup locations.
-- Trip distance provides useful information for analyzing fare patterns.
-- Payment methods show different levels of usage among trips.
-- Tip amounts vary across pickup boroughs.
-- The scatter plot helps examine the relationship between distance and fare.
-- The heatmap highlights correlations among important numerical variables.
-- Different visualizations provide a broader understanding of taxi trip behavior.
+* `distance`
+* `fare`
+* `tip`
+* `total`
 
-💡 Interpretation
+across pickup zones.
 
--The visualizations provide a clear understanding of taxi trip patterns, fare trends, distance, tips, payment methods, and pickup locations. The combination of categorical, distribution, time-based, and relationship analysis helps identify important patterns within the dataset.
+## 🔍 Key Insights
 
-📌 Conclusion
+* Taxi fares vary across different trips and pickup locations.
+* Trip distance provides useful information for analyzing fare patterns.
+* Payment methods show different levels of usage among trips.
+* Tip amounts vary across pickup boroughs.
+* The scatter plot helps examine the relationship between distance and fare.
+* The heatmap highlights correlations among important numerical variables.
+* Different visualizations provide a broader understanding of taxi trip behavior.
 
--The Taxis dataset was successfully cleaned and analyzed using Python, Pandas, Matplotlib, and Seaborn. Multiple visualizations were created to explore taxi fares, distances, tips, payment methods, and pickup locations. Overall, the project demonstrates practical skills in data cleaning, exploratory data analysis, data visualization, and interpreting business-related insights.
+## 💡 Interpretation
 
-👩‍💻 Author
+The visualizations provide a clear understanding of **taxi trip patterns, fare trends, distance, tips, payment methods, and pickup locations**. The combination of categorical, distribution, time-based, and relationship analysis helps identify important patterns within the dataset.
 
-M. Kalaivani
-Aspiring Data Analyst
+## 📌 Conclusion
 
-⭐ Skills Demonstrated
+The Taxis dataset was successfully cleaned and analyzed using **Python, Pandas, Matplotlib, and Seaborn**. Multiple visualizations were created to explore taxi fares, distances, tips, payment methods, and pickup locations.
 
-"Python" "Pandas" "NumPy" "Matplotlib" "Seaborn" "Data Cleaning" "EDA" "Data Visualization"
+Overall, this project demonstrates practical skills in:
+
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+* Data Interpretation
+* Python Data Analysis
+
+## 👩‍💻 Author
+
+**M. Kalaivani**
+*Aspiring Data Analyst*
+
+## ⭐ Skills Demonstrated
+
+`Python` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Data Cleaning` `EDA` `Data Visualization`
